@@ -1,11 +1,45 @@
-body {
-    background-color: lightgrey;
-   
 }
-div {
-    border: 10px solid white;
-    
+
+html {
+  box-sizing: border-box;
 }
-.information > li {
-    display: inline-block;
+*, *:before, *:after {
+  box-sizing: inherit;
 }
+
+
+.top-navigation > .content {
+
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0 20rem;
+}
+
+.top-navigation > .links {
+
+	float: right;
+	margin-top: 2rem;
+} 
+
+.top-navigation > .links li {
+	
+	display: inline-block;
+}
+
+.top-navigation > .logo {
+
+ 	height: 70px;
+	padding: 0 1rem;
+}	
+
+
+
+
+
+
+
+	
+
+
+
