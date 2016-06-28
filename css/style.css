@@ -63,13 +63,29 @@ a:hover {
 }
 
 
-h1 h3 {
+h1 {
 
 	color: #fff;
+	margin-top: 12.5rem;
+	font-size: 3.125rem;
+	font-weight: 300;
+	text-align: center;
 }
 
 
+h3 {
 
+	color: #fff;
+	margin-top: 1.25rem;
+	font-size: 1.525rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+button {
+
+	margin: 0 auto;
+}
 
 
 
