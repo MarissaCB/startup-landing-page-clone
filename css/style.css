@@ -1,7 +1,9 @@
 
 html {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -24,14 +26,12 @@ letter-spacing: 0.03em;
  	height: 70px;
 	margin-top: 10px;
 	margin-left: 15em;
-
 }	
 
 .links li {
 	
 	display: inline-block;
 	margin-left: 25px;
-	
 }
 
 
@@ -39,7 +39,6 @@ letter-spacing: 0.03em;
 
 	margin-top: -40px;
 	margin-left: 25em;
-
 }
 
 a:link {
@@ -48,7 +47,26 @@ a:link {
 	
 } 
 
+a:hover {
 
+	color: green;
+}
+
+.introduction {
+
+	background-image: url("../images/first-background.jpg");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 46rem;
+	overflow: auto;
+}
+
+
+h1 h3 {
+
+	color: #fff;
+}
 
 
 
