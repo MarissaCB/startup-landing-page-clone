@@ -50,6 +50,7 @@ a:link {
 a:hover {
 
 	color: green;
+	cursor: pointer;
 }
 
 .introduction {
@@ -85,8 +86,22 @@ h3 {
 button {
 
 	margin: 0 auto;
+	display: block;
+	background-color: rgb(255, 97, 0);
+	padding: 1rem 1.5rem;
+	border-style: none;
+	border-radius: 4px;
+	border-width: 10px;
+	color: white;
+	font-size: 20px;
+
 }
 
+button:hover {
+
+	background-color: rgb(255, 80, 0);
+	cursor: pointer;
+}
 
 
 
