@@ -6,34 +6,46 @@ html {
   box-sizing: inherit;
 }
 
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-color: #838994;
+letter-spacing: 0.03em;
 
 .top-navigation > .content {
 
 	width: 200rem;
 	height: 70px;
 	margin: 0 auto;
-	padding: 0 20rem;
+	padding: 15px 10rem;
 }
 
 .logo {
 
  	height: 70px;
 	margin-top: 10px;
-	margin-bottom: 5px;
+	margin-left: 15em;
+
 }	
 
 .links li {
 	
 	display: inline-block;
 	margin-left: 25px;
-	position: relative;
 	
+}
+
+
+.links {
+
+	margin-top: -40px;
+	margin-left: 25em;
+
 }
 
 a:link {
 	
 	text-decoration: none;
-
+	
 } 
 
 
