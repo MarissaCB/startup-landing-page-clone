@@ -14,12 +14,6 @@ font-color: #838994;
 letter-spacing: 0.03em;
 
 
-.top-navigation {
-
-	position: fixed;
-
-}
-
 .top-navigation > .content {
 
 	width: 200rem;
@@ -59,7 +53,7 @@ a:hover {
 	color: green;
 	cursor: pointer;
 }
-
+/* Introduction section */
 .introduction {
 
 	background-image: url("../images/first-background.jpg");
@@ -110,38 +104,65 @@ button:hover {
 	cursor: pointer;
 }
 
+/* Everyone needs Karma section */
 
-.details h1 {
+.boxes {
+
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
+
+.boxes .content {
+
+	margin-top: 7rem;
+	padding: none;
+	text-align: center;
+}
+
+.boxes h2 {
 
 	color: black;
 	margin-top: 7.625rem;
-	font-size: 2.725rem;
+	font-size: 2.75rem;
+	font-weight: 300;
+	text-align: center;
 }
-
-.icons li {
-
-	display: inline-block;
-	margin-left: 75px;
-}
-	
+/*
 .icons {
 
-	margin-top: 3.5rem;
-	margin-left: 15em;
+	width: 150px;
+	display: inline-block;
+	border: 1px;
+	box-sizing: border-box;
+	height: 4em;
+	
+}
+*/
+.icons li {
+
+	width: 150px;
+	float: left;
+	display: inline-block;
+	margin-left: 160px
 }
 
-.details h3 {
+.icons h3 {
 
 	color: black;
+	font-weight: 400;
+	margin: 2.5rem 0px 1.875rem;
+}
+
+.icons p {
+
+	font-weight: 300;
+	font-size: 1.5rem;
 }
 
 
-.lettering li {
 
-	display: inline-block;
-	margin-left: 75px;
 }
-
 
 
 
