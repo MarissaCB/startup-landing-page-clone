@@ -7,26 +7,31 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
+/*
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
-font-color: #838994;
-letter-spacing: 0.03em;
 
+letter-spacing: 0.03em;
+*/
+
+.top-navigation {
+	position: fixed;
+	background-color: #fff;
+	height: 70px;
+	width: 100%;
+}
 
 .top-navigation > .content {
 
-	width: 200rem;
+	width: 970px;
 	height: 70px;
 	margin: 0 auto;
-	padding: 15px 10rem;
+	padding: 0 0;
 }
 
 .logo {
 
  	height: 70px;
-	margin-top: 10px;
-	margin-left: 15em;
 }	
 
 .links li {
@@ -37,18 +42,17 @@ letter-spacing: 0.03em;
 
 
 .links {
-
-	margin-top: -40px;
-	margin-left: 25em;
+	margin-top: 25px;
+	float: right;
 }
 
-a:link {
-	
+.links li a {
 	text-decoration: none;
+	color: #838994;
 	
 } 
 
-a:hover {
+.links li a:hover {
 
 	color: green;
 	cursor: pointer;
@@ -114,9 +118,9 @@ button:hover {
 }
 
 .boxes .content {
-
-	margin-top: 7rem;
-	padding: none;
+	width: 970px;
+	padding-top: 7rem;
+	margin: 0 auto;
 	text-align: center;
 }
 
@@ -141,10 +145,10 @@ button:hover {
 */
 .icons li {
 
-	width: 150px;
+	width: 33.33333%;
+	box-sizing: border-box;
 	float: left;
 	display: inline-block;
-	margin-left: 160px
 }
 
 .icons h3 {
@@ -174,6 +178,19 @@ h5 {
 
 	font-weight: 100;
 	text-align: center;
+	color: grey;
+}
+
+footer .content {
+	width: 970px;
+	padding-top: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.contacts {
+	margin: 0;
+	padding: 0;
 }
 
 .contacts li {
@@ -183,7 +200,6 @@ h5 {
 	border: 10px;
 	box-sizing: border-box;
 	height: 4em;
-	margin-left: 200px;
 }
 
 
