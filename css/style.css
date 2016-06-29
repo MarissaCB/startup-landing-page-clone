@@ -160,8 +160,30 @@ button:hover {
 	font-size: 1.5rem;
 }
 
+/*This is the footer section*/
 
 
+h4 {
+
+	font-weight: 400;
+	text-align: center;
+}
+
+
+h5 {
+
+	font-weight: 100;
+	text-align: center;
+}
+
+.contacts li {
+
+	display: inline-block;
+	color: #55acee;
+	border: 10px;
+	box-sizing: border-box;
+	height: 4em;
+	margin-left: 200px;
 }
 
 
