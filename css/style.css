@@ -1,18 +1,12 @@
 
 html {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
+  	box-sizing: border-box;
+  	-webkit-font-smoothing: antialiased;
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+  	box-sizing: inherit;
 }
-/*
-font-family: 'Roboto', sans-serif;
-font-size: 16px;
-
-letter-spacing: 0.03em;
-*/
 
 .top-navigation {
 	position: fixed;
@@ -22,7 +16,6 @@ letter-spacing: 0.03em;
 }
 
 .top-navigation > .content {
-
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
@@ -30,12 +23,10 @@ letter-spacing: 0.03em;
 }
 
 .logo {
-
- 	height: 70px;
+	height: 70px;
 }	
 
 .links li {
-	
 	display: inline-block;
 	margin-left: 25px;
 }
@@ -49,17 +40,15 @@ letter-spacing: 0.03em;
 .links li a {
 	text-decoration: none;
 	color: #838994;
-	
 } 
 
 .links li a:hover {
-
 	color: green;
 	cursor: pointer;
 }
+
 /* Introduction section */
 .introduction {
-
 	background-image: url("../images/first-background.jpg");
 	background-position: center bottom;
 	background-repeat: no-repeat;
@@ -70,7 +59,6 @@ letter-spacing: 0.03em;
 
 
 h1 {
-
 	color: #fff;
 	margin-top: 12.5rem;
 	font-size: 3.125rem;
@@ -80,7 +68,6 @@ h1 {
 
 
 h3 {
-
 	color: #fff;
 	margin-top: 1.25rem;
 	font-size: 1.525rem;
@@ -89,7 +76,6 @@ h3 {
 }
 
 button {
-
 	margin: 0 auto;
 	display: block;
 	background-color: rgb(255, 97, 0);
@@ -99,11 +85,9 @@ button {
 	border-width: 10px;
 	color: white;
 	font-size: 20px;
-
 }
 
 button:hover {
-
 	background-color: rgb(255, 80, 0);
 	cursor: pointer;
 }
@@ -111,7 +95,6 @@ button:hover {
 /* Everyone needs Karma section */
 
 .boxes {
-
 	background-color: #fff;
 	overflow: hidden;
 	padding-bottom: 5rem;
@@ -125,26 +108,14 @@ button:hover {
 }
 
 .boxes h2 {
-
 	color: black;
 	margin-top: 7.625rem;
 	font-size: 2.75rem;
 	font-weight: 300;
 	text-align: center;
 }
-/*
-.icons {
 
-	width: 150px;
-	display: inline-block;
-	border: 1px;
-	box-sizing: border-box;
-	height: 4em;
-	
-}
-*/
 .icons li {
-
 	width: 33.33333%;
 	box-sizing: border-box;
 	float: left;
@@ -152,30 +123,26 @@ button:hover {
 }
 
 .icons h3 {
-
 	color: black;
 	font-weight: 400;
 	margin: 2.5rem 0px 1.875rem;
 }
 
 .icons p {
-
 	font-weight: 300;
 	font-size: 1.5rem;
 }
 
+
 /*This is the footer section*/
 
-
 h4 {
-
 	font-weight: 400;
 	text-align: center;
 }
 
 
 h5 {
-
 	font-weight: 100;
 	text-align: center;
 	color: grey;
@@ -194,7 +161,6 @@ footer .content {
 }
 
 .contacts li {
-
 	display: inline-block;
 	color: #55acee;
 	border: 10px;
